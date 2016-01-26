@@ -95,7 +95,7 @@
       "metadata": {
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "contoso.local"
+      "defaultValue": "ispoc.local"
     },
     "sqlServerServiceAccountUserName": {
       "type": "string",
@@ -219,10 +219,10 @@
     "spCANAT": "spCentralAdmin",
     "adSubnetName": "adSubnet",
     "sqlSubnetName": "sqlSubnet",
-    "spSubnetName": "spSubnet",
+    "spSubnetName": "webSubnet",
     "adNicName": "adNic",
     "sqlNicName": "sqlNic",
-    "spNicName": "spNic",
+    "spNicName": "webNic",
     "VnetID": "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
     "adSubnetRef": "[concat(variables('VnetID'),'/subnets/',variables('adSubnetName'))]",
     "sqlSubnetRef": "[concat(variables('VnetID'),'/subnets/',variables('sqlSubnetName'))]",
