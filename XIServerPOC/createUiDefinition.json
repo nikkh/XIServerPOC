@@ -73,7 +73,7 @@
               "type": "Microsoft.Common.TextBox",
               "label": "Virtual Network name",
               "toolTip": "Name of the virtual network to be created",
-              "defaultValue": "spfarmvnet",
+              "defaultValue": "ispocVNET",
               "constraints": {
                   "required": true,
                   "regex": "^[a-z0-9A-Z]{1,10}$",

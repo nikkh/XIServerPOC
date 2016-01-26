@@ -20,42 +20,42 @@
       "metadata": {
         "description": "The name of the Virtual Network to Create"
       },
-      "defaultValue": "spfarmVNET"
+      "defaultValue": "ispocVNET"
     },
     "virtualNetworkAddressRange": {
       "type": "string",
       "metadata": {
         "description": "The address range of the new VNET "
       },
-      "defaultValue": "10.0.0.0/16"
+      "defaultValue": "10.60.0.0/16"
     },
     "adSubnet": {
       "type": "string",
       "metadata": {
         "description": "The address range of the AD subnet created in the new VNET"
       },
-      "defaultValue": "10.0.0.0/24"
+      "defaultValue": "10.60.0.0/24"
     },
     "sqlSubnet": {
       "type": "string",
       "metadata": {
         "description": "The address range of the SQL subnet created in the new VNET"
       },
-      "defaultValue": "10.0.1.0/24"
+      "defaultValue": "10.60.1.0/24"
     },
     "spSubnet": {
       "type": "string",
       "metadata": {
         "description": "The address range of the SP subnet created in the new VNET"
       },
-      "defaultValue": "10.0.2.0/24"
+      "defaultValue": "10.60.2.0/24"
     },
     "adNicIPAddress": {
       "type": "string",
       "metadata": {
         "description": "The IP address of the new AD VM"
       },
-      "defaultValue": "10.0.0.4"
+      "defaultValue": "10.60.0.4"
     },
     "adminUsername": {
       "type": "string",
