@@ -41,6 +41,7 @@
     <None Include="dsc\CreateADPDC.ps1.zip" />
     <None Include="dsc\PrepareSharePointServer.ps1.zip" />
     <None Include="dsc\PrepareSqlServer.ps1.zip" />
+    <None Include="json.json" />
     <None Include="loadBalancers.json" />
     <None Include="mainTemplate.json" />
     <None Include="metadata.json" />
