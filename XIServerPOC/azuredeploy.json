@@ -113,7 +113,7 @@
     "sharePointSetupUserAccountUserName": {
       "type": "string",
       "metadata": {
-        "description": "The Sharepoint Setup account name"
+        "description": "The Web Server Setup account name"
       },
       "defaultValue": "sp_setup"
     },

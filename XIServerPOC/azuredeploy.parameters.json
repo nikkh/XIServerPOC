@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "West US"
+            "value": "East US"
         },
         "storageAccountType": {
             "value": "Premium_LRS"
@@ -21,7 +21,7 @@
             "value": "GEN-PASSWORD"
         },
         "sharePointSetupUserAccountUserName": {
-            "value": "admin123sp"
+            "value": "admin123web"
         },
         "sharePointSetupUserAccountPassword": {
             "value": "GEN-PASSWORD"
