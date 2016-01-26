@@ -33,7 +33,7 @@
             "value": "GEN-PASSWORD"
         },
         "sppublicIPAddressName": {
-            "value": "sppublicIP"
+            "value": "webPublicIP"
         },
         "spDNSPrefix": {
             "value": "GEN-UNIQUE"
