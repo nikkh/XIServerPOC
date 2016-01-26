@@ -250,7 +250,7 @@
     "sqlDataDiskSize": 1000,
     "sqlLogDisk": "SQLLogDisk",
     "sqlLogDiskSize": 1000,
-    "spDataDisk": "SPDataDisk",
+    "spDataDisk": "WebDataDisk",
     "spDataDiskSize": 1000,
     "adpublicIPAddressName": "adPublicIP",
     "sqlpublicIPAddressName": "sqlPublicIP",
