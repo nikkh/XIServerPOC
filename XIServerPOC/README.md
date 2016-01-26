@@ -10,3 +10,4 @@ Click the button below to deploy
 
 
 Notes: Sharepoint farm name must not contain spaces.
+https://ms.portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnikkh%2FXIServerPOC%2Fmaster%2FXIServerPOC%2Fazuredeploy.json
