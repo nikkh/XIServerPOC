@@ -6,7 +6,7 @@
             "value": "East US"
         },
         "storageAccountType": {
-            "value": "Premium_LRS"
+            "value": "Standard_LRS"
         },
         "adminUsername": {
             "value": "admin123"

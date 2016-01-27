@@ -58,12 +58,12 @@
                 "type": "Storage account type"
             },
             "defaultValue": {
-                "type": "Premium_LRS"
+                "type": "Standard_LRS"
             },
             "count": 2,
             "constraints": {
                 "allowedTypes":[
-                    "Premium_LRS"
+                    "Standard_LRS"
                 ],
                 "required": true
             }
