@@ -32,7 +32,7 @@
             "toolTip": "Admin username for the virtual machines and the Active Directory domain.",
             "osPlatform": "Windows",
             "constraints": {
-                "required": true
+              "required": true
             }
           },
           {
@@ -47,38 +47,38 @@
             },
             "osPlatform": "Windows",
             "constraints": {
-                "required": true
+              "required": true
             }
           },
           {
             "name": "storageAccounts",
             "type": "Microsoft.Storage.MultiStorageAccountCombo",
             "label": {
-                "prefix": "Storage account name prefix",
-                "type": "Storage account type"
+              "prefix": "Storage account name prefix",
+              "type": "Storage account type"
             },
             "defaultValue": {
-                "type": "Standard_LRS"
+              "type": "Standard_LRS"
             },
             "count": 2,
             "constraints": {
-                "allowedTypes":[
-                    "Standard_LRS"
-                ],
-                "required": true
+              "allowedTypes": [
+                "Standard_LRS"
+              ],
+              "required": true
             }
           },
           {
-              "name": "virtualNetworkName",
-              "type": "Microsoft.Common.TextBox",
-              "label": "Virtual Network name",
-              "toolTip": "Name of the virtual network to be created",
-              "defaultValue": "ispocVNET",
-              "constraints": {
-                  "required": true,
-                  "regex": "^[a-z0-9A-Z]{1,10}$",
-                  "validationMessage": "Only letters and numbers are allowed, and the value must be 1-10 characters long."
-              }
+            "name": "virtualNetworkName",
+            "type": "Microsoft.Common.TextBox",
+            "label": "Virtual Network name",
+            "toolTip": "Name of the virtual network to be created",
+            "defaultValue": "ispocVNET",
+            "constraints": {
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{1,10}$",
+              "validationMessage": "Only letters and numbers are allowed, and the value must be 1-10 characters long."
+            }
           }
         ]
       },
@@ -109,12 +109,14 @@
             "label": "Virtual machine size",
             "toolTip": "The size of the virtual machine for the domain controller.",
             "recommendedSizes": [
+              "Standard_DS1",
               "Standard_DS2",
               "Standard_DS3",
               "Standard_DS4"
             ],
             "constraints": {
               "allowedSizes": [
+                "Standard_DS1",
                 "Standard_DS2",
                 "Standard_DS3",
                 "Standard_DS4",
@@ -149,12 +151,19 @@
             "label": "Virtual machine size",
             "toolTip": "The size of the virtual machine for the SQL Server.",
             "recommendedSizes": [
-              "Standard_DS3",
-              "Standard_DS4",
-              "Standard_DS14"
+             "Standard_DS1",
+                "Standard_DS2",
+                "Standard_DS3",
+                "Standard_DS4",
+                "Standard_DS11",
+                "Standard_DS12",
+                "Standard_DS13",
+                "Standard_DS14"
             ],
             "constraints": {
               "allowedSizes": [
+                "Standard_DS1",
+                "Standard_DS2",
                 "Standard_DS3",
                 "Standard_DS4",
                 "Standard_DS11",
@@ -181,7 +190,7 @@
             "toolTip": "SQL Service account password, username is sqlserver, account is used to run  MSSQLSERVER and SQLSERVERAGENT.",
             "osPlatform": "Windows",
             "constraints": {
-                "required": true
+              "required": true
             }
           }
         ]
@@ -214,7 +223,7 @@
             },
             "constraints": {
               "required": {
-                 "domainNameLabel": true
+                "domainNameLabel": true
               }
             }
           },
@@ -224,12 +233,19 @@
             "label": "Virtual machine size",
             "toolTip": "The size of the virtual machine for the SharePoint Server.",
             "recommendedSizes": [
-              "Standard_DS3",
-              "Standard_DS4",
-              "Standard_DS14"
+              "Standard_DS1",
+                "Standard_DS2",
+                "Standard_DS3",
+                "Standard_DS4",
+                "Standard_DS11",
+                "Standard_DS12",
+                "Standard_DS13",
+                "Standard_DS14"
             ],
             "constraints": {
               "allowedSizes": [
+                 "Standard_DS1",
+                "Standard_DS2",
                 "Standard_DS3",
                 "Standard_DS4",
                 "Standard_DS11",
@@ -256,7 +272,7 @@
             "toolTip": "SharePoint setup account password, username is spsetup, account is used to setup SharePoint.",
             "osPlatform": "Windows",
             "constraints": {
-                "required": true
+              "required": true
             }
           },
           {
@@ -269,7 +285,7 @@
             "toolTip": " farm account password, username is sp_farm, account is used to configure and manage server farm, act as the application pool identity for the SharePoint Central Administration Web site and run the Microsoft SharePoint Foundation Workflow .",
             "osPlatform": "Windows",
             "constraints": {
-                "required": true
+              "required": true
             }
           },
           {
@@ -284,7 +300,7 @@
             },
             "osPlatform": "Windows",
             "constraints": {
-                "required": true
+              "required": true
             }
           },
           {
@@ -293,8 +309,8 @@
             "label": "Content site template",
             "defaultValue": "Team Site",
             "constraints": {
-                "required": true,
-                "allowedValues": [
+              "required": true,
+              "allowedValues": [
                 {
                   "label": "Team Site",
                   "value": "STS#0"

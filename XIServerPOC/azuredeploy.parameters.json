@@ -45,10 +45,10 @@
             "value": "Standard_D1"
         },
         "sqlVMSize": {
-            "value": "Standard_D3"
+            "value": "Standard_D2"
         },
         "spVMSize": {
-            "value": "Standard_D3"
+            "value": "Standard_D1"
         }
     }
 }
