@@ -64,8 +64,8 @@
           "imageReference": {
             "publisher": "MicrosoftSQLServer",
             "offer": "SQL2014-WS2012R2",
-            "sku": "Enterprise",
-            "version": "latest"
+            "sku": "Standard",
+            "version": "12.0.2430"
           },
           "osDisk": {
             "name": "osdisk",
